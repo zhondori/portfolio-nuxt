@@ -1,18 +1,18 @@
 <template>
   <div
-    class="dark:bg-gray-800 dark:text-white w-full min-h-screen flex items-center justify-center selection:bg-slate-900 selection:text-white dark:selection:bg-white dark:selection:text-slate-900"
+    class="flex items-center justify-center w-full min-h-screen overflow-hidden dark:bg-gray-800 dark:text-white selection:bg-slate-900 selection:text-white dark:selection:bg-white dark:selection:text-slate-900"
   >
-    <div class="flex flex-col gap-y-2 items-center">
+    <div class="flex flex-col items-center gap-y-2">
       <a href="https://alisher_buxoriy.t.me" target="_blank">
         <img
           src="../assets/images/avatar.png"
-          class="w-40 h-40 rounded-full shadow-md border-4 border-transparent dark:border-white"
+          class="w-40 h-40 border-4 border-transparent rounded-full shadow-md dark:border-white"
           alt="avatar"
         />
       </a>
-      <h1 class="text-3xl mt-2">Alisher Usmonov</h1>
+      <h1 class="mt-2 text-3xl">Alisher Usmonov</h1>
       <h2 class="text-xl">Frontend Developer</h2>
-      <ul class="mt-4 flex gap-x-4 text-lg underline">
+      <ul class="flex mt-4 text-lg underline gap-x-4">
         <li>
           <a href="https://t.me/alisher_buxoriy" target="_blank">Telegram</a>
         </li>
@@ -29,7 +29,7 @@
       </ul>
     </div>
     <div
-      class="w-10 h-10 absolute top-8 cursor-pointer right-8 rounded-full bg-gray-800 shadow-lg dark:bg-white flex items-center justify-center"
+      class="absolute flex items-center justify-center w-10 h-10 bg-gray-800 rounded-full shadow-lg cursor-pointer top-8 right-8 dark:bg-white"
       @click="toggle()"
     >
       <svg
