@@ -8,11 +8,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.3.1",
+    "@iconify-json/mingcute": "^1.1.6",
     "nuxt": "^3.1.2"
   },
   "dependencies": {
-    "@vueuse/core": "^9.12.0",
-    "nuxt-icon": "^0.2.10"
+    "@iconify-json/carbon": "^1.1.16",
+    "@unocss/nuxt": "^0.51.12",
+    "@unocss/reset": "^0.51.12"
   }
 }
