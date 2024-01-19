@@ -1,11 +1,8 @@
 name: Purge Cache
 
 on:
-  workflow_run:
-    workflows: ["Cloudflare Pages"]
+  push:
     branches: [dev]
-    types:
-      - completed
 
 jobs:
   purge-cache:
