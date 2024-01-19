@@ -3,7 +3,7 @@ name: Purge Cache
 on:
   workflow_run:
     workflows: ["Cloudflare Pages"]
-    branches: ["develop"]
+    branches: ["dev"]
     types:
       - completed
 
