@@ -1,8 +1,8 @@
 name: Purge Cache
 
 on:
-  push:
-    branches: [dev]
+  workflow_run:
+    workflows: ["Cloudflare Pages GitHub Action"]
 
 jobs:
   purge-cache:
