@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "https://unpkg.com/repli-widget@1.0.0/repli.js",
+          src: "https://unpkg.com/repli-widget@1.0.2/repli.js",
           defer: true
         }
       ],
