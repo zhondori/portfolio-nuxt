@@ -27,6 +27,11 @@ export default defineNuxtConfig({
           href: "/site.webmanifest",
         },
       ],
+      scripts: [
+        {
+          src: "https://unpkg.com/repli-widget@1.0.0/index.js"
+        }
+      ],
       title: "Alisher Usmonov",
       viewport: "width=device-width, initial-scale=1",
       meta: [
