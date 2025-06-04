@@ -27,7 +27,7 @@ export default defineNuxtConfig({
           href: "/site.webmanifest",
         },
       ],
-      scripts: [
+      script: [
         {
           src: "https://unpkg.com/repli-widget@1.0.0/index.js"
         }
