@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          src: "https://repli.uz/widget.js?assistant=7c38db28-06e8-4c23-a761-d494d61b918d",
+          src: "https://repli.uz/widget.js?assistant=81d53014-d793-434c-9749-4c5d9e6efbea",
           defer: true
         }
       ],
